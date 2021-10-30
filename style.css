@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    z-index: 10 cursor: pointer;
+    background-color: white;
+}
+
+.views {
+    display: inline;
+    color: lightpink;
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.views:hover {
+    color: dodgerblue;
+    font-family: fantasy;
+    text-decoration: underline;
+}
+
+#imagemain {
+    height: 500px;
+    width: 800px;
+}
+
+.image {
+    height: 250px;
+    width: 250px;
+}
+
+#mycarousel {
+    background-color: deeppink;
+}
+
+
+#mycarousel img {
+    width: 30%;
+    margin-top: 20px;
+}
+
+.carousel-content {
+    font-size: 20px;
+}
+
+.carousel-inner {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.gridimage {
+    display: inline;
+}
